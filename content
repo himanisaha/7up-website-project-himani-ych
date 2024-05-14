@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <title>7up</title>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            nav{
+                background-color: #009e5f;
+                height: 6%;
+            }
+            ul{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                list-style: none;
+            }
+            li{
+                margin-left: 21px;
+                font-size: 1.5em;
+                color: white;
+            }
+            #explorebox
+            {
+                display: block;
+                padding: 10px 20px;
+                background: linear-gradient(to right, #009e5f 50%, white 50%);
+                background-size: 205% 100%;
+                background-position: right bottom;
+                transition: all 200ms ease;
+                backface-visibility: hidden;
+                display: inline-block;
+                border: 3px solid #009e5f;
+                margin-top: 15px;
+                font-weight: 700;
+                color: #009e5f;
+                font-family:'Nobel', Helvetica, Arial, sans-serif;
+            }
+            #explorebox:hover
+            {
+                color: white;
+                background:#009e5f;
+            }
+            .videobanner
+            {
+                background: url(https://www.7up.com/images/products/slider/7up_featured.jpg) center center no-repeat;
+                /* border: 2px solid black; */
+                width: 99%;
+                display: flex;
+            }
+            .secondsectionh1
+            {
+                color: white;
+                font:700 26px / 1.2 "Nobel", Helvetica, Arial, sans-serif;
+            }
+            #secondsectiondiv
+            {
+                position: relative;
+                top: 100px;
+                margin-left: 100px;
+            }
+            .t-f{
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                padding: 12px 18px;
+                height: 80%;
+                background-size: cover;
+                display: flex;
+            }
+            .t-f div{
+                margin: auto;
+                padding: 12px 18px;
+            }
+            .t-f div h1{
+                color: white;font:700 38px / 1.2 'Nobel', Helvetica, Arial, sans-serif;
+            }
+            #thirdsection div{
+                border: 1px solid #fe5887;
+                background-color: #fe5887;
+            }
+            #fourthsection div{
+                border: 1px solid #6ba13f;
+                background-color: #6ba13f;
+            }
+            #fifthsection div{
+                border: 1px solid #c064ac;
+                background-color: #c064ac;
+            }
+        </style>
+        <script>
+            document.addEventListener("mouseover", myFunction);
+            myFunction()
+            {
+                document.getElementById("explorebox").style.color="white";
+            }
+        </script>
+    </head>
+    <body>
+        <img src="https://www.7up.com/images/7up-logo-large.png" alt="" height="70px" style="position: absolute;">
+        <nav>
+            <ul>
+                <li>PRODUCTS</li>
+                <li>RECIPIES</li>
+                <li>STORES</li>
+                <li>ENG/ESP</li>
+            </ul>
+        </nav>
+        <div style="display: flex;">
+            <div id="first_left_banner" style="width: 30%;display: flex;flex-direction: column;justify-content: center;align-items: center;">
+                <img src="https://www.7up.com/images/products/slider/7up.jpg" alt="" style="height: 50%;">
+                <h2 style="color: green;margin: -4px 0 10px;font-family: inherit;line-height: 1.1;font:700 30px / 1.2 'Nobel', Helvetica, Arial, sans-serif;">REFRESING 7UP</h2>
+                <div id="explorebox">EXPLORE NOW</div>
+            </div>
+            <div class="videobanner"><img src="https://www.7up.com/images/play-btn.png" alt="" style="margin: auto;
+                justify-content: center;
+                align-self: center;"></div>
+        </div>
+        <div id="secondsection" style="background-color: #009e5f;height: 70%;">
+            <div id="secondsectiondiv">
+                <h1 class="secondsectionh1" style="font-size: 4rem;">new simple <span class="secondsectionh1" style="font-size: 6rem;">7UP</span></h1>
+                <h1 class="secondsectionh1">real ingredients.real7UP taste.</h1>
+                <h1 class="secondsectionh1">now available</h1>
+                <div id="explorebox" style="padding: 17px 29px;">EXPLORE NOW</div>
+                <img src="https://www.7up.com/images/simple-7up/7up-simple-banner-mobile.jpg" alt="" style="position: absolute;right: 0px;bottom: -226px;height: 230%;">
+            </div>
+        </div>
+        <div id="thirdsection" style="background-image: url(https://www.7up.com/images/modules/module_cocktail.jpg);" class="t-f">
+            <div ><h1>COCKTAIL RECIPES</h1></div>
+        </div>
+        <div id="fourthsection" style="background-image: url(https://www.7up.com/images/modules/module_cooking.jpg);"class="t-f">
+            <div><h1>COOKING RECIPES</h1></div>
+        </div>
+        <div id="fifthsection" style="background-image: url(https://www.7up.com/images/modules/module_seeall.jpg);" class="t-f">
+            <div><h1>SEE ALL RECIPES</h1></div>
+        </div>
+        <div id="sixthsection">
+            <div id="leftsection"></div>
+            <div id="rightsection"></div>
+        </div>
+        <div id="seventhsection" style="background-image: url(https://www.7up.com/images/footer-bg.jpg);background-size:cover;height: 100%;">
+            <div id="footer">
+                <ul>
+                    <li class="icon-facebook"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

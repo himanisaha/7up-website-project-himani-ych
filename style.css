@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #009e5f;
+    height: 8%;
+}
+
+ul {
+    display: flex;
+    position: relative;
+    right: 34px;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    height: 49px;
+}
+
+li {
+    margin-left: 21px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#explorebox {
+    display: block;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #009e5f 50%, white 50%);
+    background-size: 205% 100%;
+    background-position: right bottom;
+    transition: all 200ms ease;
+    backface-visibility: hidden;
+    display: inline-block;
+    border: 3px solid #009e5f;
+    margin-top: 15px;
+    font-weight: 700;
+    color: #009e5f;
+    font-family: 'Nobel', Helvetica, Arial, sans-serif;
+}
+
+#explorebox:hover {
+    color: white;
+    background: #009e5f;
+}
+
+.videobanner {
+    background: url(https://www.7up.com/images/products/slider/7up_featured.jpg) center center no-repeat;
+    /* background-image: url("https://www.7up.com/images/play-btn.png") center no-repeat;  */
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 70%;
+    display: flex;
+}
+
+.videobanner img {
+    padding: 276%;
+    width: 76%;
+    transition: 1s;
+}
+
+.secondsectionh1 {
+    color: white;
+    font: 700 26px / 1.2 "Nobel", Helvetica, Arial, sans-serif;
+}
+
+#secondsectiondiv {
+    position: relative;
+    top: 100px;
+    margin-left: 100px;
+}
+
+.t-f {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 12px 18px;
+    height: 80%;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    top: -1px;
+}
+
+.t-f div {
+    margin: auto;
+    padding: 12px 18px;
+}
+
+.t-f div h1 {
+    color: white;
+    font: 700 38px / 1.2 'Nobel', Helvetica, Arial, sans-serif;
+}
+
+#thirdsection div {
+    border: 1px solid #fe5887;
+    background-color: #fe5887;
+}
+
+#fourthsection div {
+    border: 1px solid #6ba13f;
+    background-color: #6ba13f;
+}
+
+#fifthsection div {
+    border: 1px solid #c064ac;
+    background-color: #c064ac;
+}
+
